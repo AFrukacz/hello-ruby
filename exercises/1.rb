@@ -21,3 +21,13 @@
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
 
+puts "Rolling the die"
+
+d1 = rand(1..6)
+d2 = rand(1..6)
+total = d1 + d2
+
+puts "#{d1} and #{d2}"
+
+puts "Total = #{total}"
+

@@ -15,3 +15,15 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+l1 = ["milk", "eggs", "bacon"]
+l2 = ["beer", "cookies", "apples"]
+
+l1 << l2
+
+puts l1.sort
+
+# shared_list = l1 + l2
+# sorted_list = shared_list.sort
+# uniq_list = sorted_list.uniq
+
+# puts uniq_list

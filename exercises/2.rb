@@ -27,3 +27,26 @@
 # We can specify multiple conditions with || (OR) and && (AND)
 # if dinner == "tacos" || dinner == "pizza"
 
+puts "Rolling the die"
+
+d1 = rand(1..6)
+d2 = rand(1..6)
+total = d1 + d2
+
+puts "#{d1} and #{d2}"
+
+puts "Total = #{total}"
+
+if total == 7
+    puts "You Win!"
+elsif total == 11
+    puts "You Win!"
+elsif total == 2
+    puts "You Lose!"
+elsif total == 3
+    puts "You Lose!"
+elsif total == 12
+    puts "You Lose!"
+else
+    puts "The point is #{total}"
+end
